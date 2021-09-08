@@ -1,3 +1,20 @@
+# stock-sim-react
+
+This is a stock price "game" written in React.
+
+A Monte Carlo approach is used to generate prices for a fake stock, and visualised as a candlestick chart with simple moving averages. The prices are generated using the historical distribution, with an extra term to pull the prices back to the historical mean to prevent long term trends developing too often.
+
+Set the simulation going by pressing the "play" button, pause it using the "pause" button and generate a new stock history with the reset button.
+
+You start with 1000 in cash, and can buy and sell stocks. It can be fun to try and make a profit. Makes you realise why you dont day trade.
+
+There is also a working calculator, if you wanna... calculate.
+
+I am planning to add more things to the game, like random events, comission fees every N periods, perhaps options and margin trading.
+
+## Try it out [here](https://stoic-blackwell-776b1a.netlify.app/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

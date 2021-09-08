@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+canvas#barChart {
+  background-color: #f00;
+}
+
+.footer {
+  height:100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.fifty-group-first{
+  margin-right:2%;
+  width:49%;
+}
+.fifty-group-second{
+  
+  width:49%;
+}
